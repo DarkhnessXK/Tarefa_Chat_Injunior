@@ -15,10 +15,29 @@ h1 {
     color: #000000;
 }
 
-form{
+form {
     background: grey;
-    margin-bottom: auto;
+    /* margin-bottom: auto;     verificar */
     margin-left: auto;
     margin-right: auto;
     border: 1px solid grey;
+}
+
+#enviar_mensagem {
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
+
+#enviar_mensagem:hover{
+    font-style: italic;
+}
+
+#chat_box {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.historico_msg {
+    list-style: none;
 }
