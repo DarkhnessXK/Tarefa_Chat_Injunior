@@ -23,21 +23,53 @@ form {
     border: 1px solid grey;
 }
 
-#enviar_mensagem {
+#btn_enviar_mensagem {
     background-color: lightseagreen;
     border-radius: 5px;
 }
 
-#enviar_mensagem:hover{
+#btn_enviar_mensagem:hover{
     font-style: italic;
-}
-
-#chat_box {
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: blue;
+    color: white;
 }
 
 .historico_msg {
     list-style: none;
+}
+
+.div_box{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn_editar_msg{
+    background-color: orange ;
+    color: black;
+    border-radius: 5px;
+}
+
+.btn_editar_msg:hover{
+    font-style: italic;
+    background-color: blue;
+    color: white;
+}
+
+.btn_excluir_msg{
+    background-color: red;
+    color: #000;
+    border-radius: 5px;
+
+}
+
+.btn_excluir_msg:hover{
+    font-style: italic;
+    background-color: blue;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
 }
