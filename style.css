@@ -1,6 +1,5 @@
 header {
     background: grey;
-    /* box-sizing: border-box; */
     border: 1px solid #000;
 }
 
@@ -17,18 +16,18 @@ h1 {
 
 form {
     background: grey;
-    /* margin-bottom: auto;     verificar */
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid grey;
+    display: flex;    
 }
 
 #btn_enviar_mensagem {
     background-color: lightseagreen;
-    border-radius: 5px;
+    border-radius: 20px;
+    height: 20px;
+    border: none;
 }
 
-#btn_enviar_mensagem:hover{
+#btn_enviar_mensagem:hover {
     font-style: italic;
     background-color: blue;
     color: white;
@@ -38,38 +37,43 @@ form {
     list-style: none;
 }
 
-.div_box{
+.div_box {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    height: 65px;
+    background-color: lightblue;
 }
 
-.btn_editar_msg{
-    background-color: orange ;
-    color: black;
-    border-radius: 5px;
-}
-
-.btn_editar_msg:hover{
-    font-style: italic;
-    background-color: blue;
-    color: white;
-}
-
-.btn_excluir_msg{
+.btn_excluir_msg {
     background-color: red;
     color: #000;
     border-radius: 5px;
+    float: right;
 
 }
 
-.btn_excluir_msg:hover{
+.btn_excluir_msg:hover {
     font-style: italic;
     background-color: blue;
     color: white;
 }
 
-form{
-    display: flex;
-    justify-content: center;
+.btn_editar_msg {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    float: right;
+}
+
+.btn_editar_msg:hover {
+    font-style: italic;
+    background-color: blue;
+    color: white;
+}
+
+.chat_box{
+    width: 500px;
+    height: 150px;
+    
 }
