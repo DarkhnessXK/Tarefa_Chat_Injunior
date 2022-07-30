@@ -50,6 +50,7 @@ form {
     color: #000;
     border-radius: 5px;
     float: right;
+    border: none;
 
 }
 
@@ -64,6 +65,7 @@ form {
     color: black;
     border-radius: 5px;
     float: right;
+    border: none;
 }
 
 .btn_editar_msg:hover {
@@ -75,5 +77,4 @@ form {
 .chat_box{
     width: 500px;
     height: 150px;
-    
 }

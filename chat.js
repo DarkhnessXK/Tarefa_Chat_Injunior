@@ -32,22 +32,6 @@ function editar_mensagem(editavel) {
     const msg = document.querySelector(".chat_box")
     editavel.parentElement.firstChild.innerText = msg.value
 
-
-    // const btn_editar = document.createElement("input")  //gambiarra master
-    // const btn_excluir = document.createElement("input")
-    // btn_excluir.setAttribute("class", "btn_excluir_msg")
-    // btn_excluir.setAttribute("type", "button")
-    // btn_excluir.setAttribute("value", "Excluir")
-    // btn_excluir.setAttribute("onclick", "excluir_mensagem(this)")
-    // btn_editar.setAttribute("class", "btn_editar_msg")
-    // btn_editar.setAttribute("type", "button")
-    // btn_editar.setAttribute("value", "Editar")
-    // btn_editar.setAttribute("onclick", "editar_mensagem(this)")
-
-
-    // editavel.parentElement.appendChild(btn_editar)
-    // editavel.parentElement.appendChild(btn_excluir)
-
 }
 
 function excluir_mensagem(elemento) {
